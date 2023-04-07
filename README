@@ -1,0 +1,22 @@
+#
+# M. Boylan-Kolchin, 2023.04.07
+#
+
+This repository contains the files required to reproduce the figures and
+calculations in Boylan-Kolchin (2023), Nature Astronomy; DOI
+10.1038/s41550-023-01937-7; https://www.nature.com/articles/s41550-023-01937-7).
+
+This code has been tested with python3 and requires numpy, scipy, hmf, astropy,
+and matplotlib, all of which can be installed via pip. The figure files are
+configured to run interactively within the ipython environment via "run -i
+<figure_file.py>". ipython can also be installed via pip; with minor
+modifications, the ipython dependency can be removed.
+
+The data files (*.dat) have either been provided by Labbe et al. or are
+available at https://github.com/ivolabbe/red-massive-candidates and correspond
+to data published in Labbe et al. (2023), Nature;
+https://www.nature.com/articles/s41586-023-05786-2
+
+The matplotlibrc file should enable exact reproduction of the figures in terms
+of style as well as content. Each panel of both figures is contained in a
+separate file, for a total of 4 figure files (2 figures, 2 panels per figure).
